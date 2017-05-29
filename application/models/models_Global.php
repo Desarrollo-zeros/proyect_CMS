@@ -1,0 +1,13 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class models_Global extends CI_Model{
+
+    function __construct() {
+        $this->TitleServer = "";
+        $this->nameServer = "";
+        $this->Realmlist= "";
+        $this->password1= "";
+    }
+}
+?>
